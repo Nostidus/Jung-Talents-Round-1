@@ -1,0 +1,933 @@
+/* page header */
+body {
+    margin: 0;
+    font-family: Poppins;
+}
+
+.fullpage {
+    width: 100%;
+    height: auto;
+}
+
+.frame {
+    display: none;
+}
+
+.header {
+    background-image: linear-gradient(0, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/image\ 3.svg");
+    width: auto;
+    height: 56.25vw;
+    background-size: cover;
+    background-position: center;
+    padding: 0 4.167vw;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.header-first-item {
+    width: 24.010vw;
+    height: 1.406vw;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    color: #FFFFFF;
+    position: absolute;
+    left: 38.021vw;
+    font-weight: 20.833vw;
+    font-size: 0.938vw;
+    line-height: 1.406vw;
+    color: #FFFFFF;
+}
+
+.header-background {
+    display: flex;
+    padding: 2.292vw 0;
+}
+
+.header-first-title {
+    font-weight: 31.250vw;
+    line-height: 3.750vw;
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+.header-second-title {
+    font-weight: 20.833vw;
+    font-size: 0.938vw;
+    line-height: 1.875vw;
+    text-align: center;
+    padding: 0 7vw;
+}
+
+.header-content {
+    width: 43.4375vw;
+    height: auto;
+    color: #FFFFFF;
+}
+
+.header-content-container {
+    display: flex;
+    justify-content: center;
+    margin: 4vw 0;
+}
+
+.header-logo {
+    width: 6.198vw;
+    height: 1.823vw;
+}
+
+/* body 1 */
+
+
+.body-heading-1 {
+    width: auto;
+    height: auto;
+    margin-top: 4.167vw;
+    padding: 0 4.167vw;
+    font-weight: 26.042vw;
+    font-size: 1.875vw;
+    line-height: 3.750vw;
+    color: #564E4E;
+}
+
+.b1list-item-1 {
+    width: auto;
+    height: auto;
+    border-radius: 0.521vw;
+    border: 0.052vw;
+    border-color: #FADCD9;
+    border-style: solid;
+    box-shadow: 0.208vw 0.104vw 0.521vw 0.104vw #F7948933;
+}
+
+.b1list-item-2,
+.b1list-item-3,
+.b1list-item-4 {
+    width: 22.135vw;
+    height: 14.583vw;
+}
+
+.body1-items {
+    margin-top: 0.833vw;
+    display: flex;
+    flex-direction: row;
+    padding: 0 4.167vw;
+}
+
+.icon {
+    width: 3.125vw;
+    height: 3.125vw;
+    margin-top: 0.833vw;
+    margin-left: 1.042vw;
+}
+
+.b1list-item-l1 {
+    Width: 9.271vw;
+    height: 1.875vw;
+    font-weight: 26.042vw;
+    font-size: 0.938vw;
+    line-height: 1.875vw;
+    margin-top: 0.521vw;
+    margin-left: 1.042vw;
+    color: #564E4E;
+}
+
+.b1list-item-l2 {
+    width: 20.052vw;
+    height: 3.750vw;
+    font-weight: 20.833vw;
+    font-size: 0.938vw;
+    line-height: 1.875vw;
+    color: #564E4E;
+    margin-top: 0.521vw;
+    margin-left: 1.042vw;
+}
+
+
+.b1list-item-l3 {
+    width: 4.531vw;
+    height: 1.875vw;
+    font-weight: 20.833vw;
+    font-size: 0.938vw;
+    line-height: 1.875vw;
+    color: #F79489;
+    padding-left: 1.042vw;
+    margin-top: 1.042vw;
+}
+
+/* body-2 */
+.body-2 {
+    margin-top: 10.417vw;
+    padding: 0 4.167vw;
+    display: flex;
+}
+
+.body-heading-2 {
+    width: 25.885vw;
+    height: 3.750vw;
+    font-weight: 26.042vw;
+    font-size: 1.875vw;
+    line-height: 3.750vw;
+    color: #564E4E;
+    margin: 0;
+}
+
+.b2list-item-p {
+    width: 41.979vw;
+    height: auto;
+    font-weight: 20.833vw;
+    font-size: 0.938vw;
+    line-height: 1.875vw;
+    color: #564E4E;
+    margin-top: 1.042vw;
+}
+
+.content-s {
+    width: 41.302vw;
+    height: 1.875vw;
+    border: 0.052vw #F79489;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.b2list-item-s {
+    width: 6.927vw;
+    height: 3.594vw;
+    font-weight: 20.833vw;
+    font-size: 0.938vw;
+    line-height: 1.875vw;
+    color: #564E4E;
+    margin-top: 1.042vw;
+}
+
+.content-s-2 {
+    margin-top: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.042vw;
+}
+
+.b2list-item-color {
+    margin-top: 1.042vw;
+    width: 9.010vw;
+    height: 1.875vw;
+    font-weight: 20.833vw;
+    font-size: 0.938vw;
+    line-height: 1.875vw;
+    color: #F79489;
+}
+
+.line {
+    margin-left: 2vw;
+    margin-right: 1.719vw;
+
+}
+
+.body2-picture {
+    width: 45.313vw;
+    height: 31.25vw;
+    object-fit: cover;
+}
+
+
+/* body 3 */
+.body-3 {
+    margin: 10.417vw 0;
+    padding: 0 4.167vw;
+    height: auto;
+}
+
+.body-heading-3 {
+    /* width: 16.302vw;
+    height: 3.750vw; */
+    font-weight: 26.042vw;
+    font-size: 1.875vw;
+    line-height: 3.750vw;
+    color: #564E4E;
+    /* margin-left: 41.875vw; */
+    text-align: center;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+/* .product-1,
+.product-2,
+.product-3,
+.product-4 {
+    height: auto;
+} */
+
+.product-information {
+    /* width: 5.729vw;
+    height: 7.656vw;
+    margin-top: 1.042vw;
+    margin-left: 1.042vw; */
+    padding: 0 1.042vw;
+}
+
+.product-1,
+.product-2,
+.product-3,
+.product-4 {
+    width: 22.135vw;
+    height: auto;
+    background-color: #FFFFFF;
+}
+
+.nameofproduct {
+    /* width: 3.646vw;
+    height: 1.875vw; */
+    font-weight: 20.833vw;
+    font-size: 0.938vw;
+    line-height: 1.875vw;
+    color: #564E4E;
+}
+
+.kindsofproduct {
+    /* width: 3.438vw;
+    height: 1.458vw; */
+    font-weight: 20.833vw;
+    font-size: 0.729vw;
+    line-height: 1.458vw;
+    color: #C4C4C4;
+    margin-top: 0.521vw;
+}
+
+.product-picture {
+    margin-top: 0.521vw;
+}
+
+.cost {
+    /* width: 4.219vw;
+    height: 1.458vw; */
+    font-weight: 20.833vw;
+    font-size: 0.729vw;
+    line-height: 1.458vw;
+    color: #564E4E;
+    margin-top: 1.042vw;
+}
+
+/* .product-playout {
+    width: 22.135vw;
+    height: 10.417vw;
+} */
+
+.product-1,
+.product-2,
+.product-3,
+.product-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* body-4 */
+.body-4 {
+    padding: 0 4.167vw;
+    padding-top: 4.375vw;
+    padding-bottom: 12.917vw;
+    margin-top: 8.698vw;
+    background: linear-gradient(279.85deg, #FFFFFF 0%, #FAF5F2 100%);
+}
+
+
+.body-heading-4 {
+    font-size: 1.8750vw;
+    line-height: 3.75vw;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+}
+
+.b4-content {
+    display: flex;
+    margin: 5.729vw 0;
+    justify-content: space-between;
+}
+
+.b4-title {
+    margin-top: 4.375vw;
+}
+
+
+
+/* .first-comment,
+.second-comment,
+.third-comment {
+    width: 28.125vw;
+    height: 14.896vw;
+} */
+
+.intro-comment {
+    /* width: 13.490vw;
+    height: 2.500vw; */
+    font-weight: 26.042vw;
+    font-size: 1.250vw;
+    line-height: 2.500vw;
+    color: #564E4E;
+}
+
+.content-comment {
+    /* width: 28.125vw;
+    height: 7.500vw; */
+    font-weight: 20.833vw;
+    font-size: 0.938vw;
+    line-height: 1.875vw;
+    color: #564E4E;
+    margin-top: 0.521vw;
+}
+
+.people-comment {
+    /* width: 13.385vw;
+    height: 3.333vw; */
+    display: flex;
+}
+
+.name {
+    /* width: 4.427vw;
+    height: 1.875vw; */
+    font-weight: 26.042vw;
+    font-size: 0.938vw;
+    color: #564E4E;
+}
+
+.job {
+    /* width: 9.740vw;
+    height: 1.458vw; */
+    font-weight: 15.625vw;
+    font-size: 0.729vw;
+    line-height: 1.458vw;
+    color: #564E4E;
+    margin-bottom: 1px;
+}
+
+.name-job {
+    margin: 0 0.521vw;
+}
+
+
+/* body-5 */
+.body-5 {
+    padding: 0 4.167vw;
+    margin-top: 10.417vw;
+    display: flex;
+    height: auto;
+}
+
+.body-5-picture {
+    width: 45.313vw;
+    height: 31.25vw;
+    object-fit: cover;
+}
+
+.total-content {
+    margin-left: 4.167vw;
+}
+
+.body-heading-5 {
+    width: 26.406vw;
+    height: 3.750vw;
+    font-weight: 26.042vw;
+    font-size: 1.875vw;
+    line-height: 3.750vw;
+    color: #564E4E;
+}
+
+.content {
+    width: 42.188vw;
+    height: 11.250vw;
+    font-weight: 20.833vw;
+    font-size: 0.938vw;
+    line-height: 1.875vw;
+    color: #564E4E;
+    margin-top: 1.042vw;
+}
+
+.content-2 {
+    margin-top: 1.042vw;
+}
+
+.body-5-search {
+    margin-top: 2.083vw;
+    width: 20.833vw;
+    height: 3.125vw;
+    border-radius: 1.563vw;
+    border: 0.052vw solid #FADCD9;
+    background-color: #FEFCFB;
+    display: flex;
+}
+
+.search-title {
+    width: 9.271vw;
+    height: 1.458vw;
+    margin-left: 1.042vw;
+    font-weight: 20.833vw;
+    font-size: 0.729vw;
+    line-height: 1.458vw;
+    color: #F79489;
+}
+
+.b5-image {
+    width: 2.292vw;
+    height: 2.292vw;
+    margin-left: 7.813vw;
+    margin-top: 0.417vw;
+}
+
+/* page-ending */
+.page-ending {
+    margin-top: 10.417vw;
+    background-image: linear-gradient(275.58deg, #000000 0%, #4B4B4B 100%);
+    padding: 0 4.167vw;
+}
+
+.pageending-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5.208vw;
+}
+
+.ending-logo {
+    width: 12.396vw;
+    height: 3.646vw;
+}
+
+.pelist-item {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.250vw;
+}
+
+.header-item-pe {
+    width: auto;
+    height: auto;
+    font-weight: 26.042vw;
+    font-size: 1.250vw;
+    line-height: 1.875vw;
+    color: #FADCD9;
+    margin-top: -1.5vw;
+    margin-bottom: -2.3vw;
+}
+
+.pe-block-content {
+    width: auto;
+    height: auto;
+    font-weight: 20.833vw;
+    font-size: 0.938vw;
+    line-height: 1.406vw;
+    color: #FFFFFF;
+}
+
+.ending-title {
+    font-weight: 20.833vw;
+    font-size: 0.938vw;
+    line-height: 1.406vw;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-top: 10.260vw;
+    padding-bottom: 2.083vw;
+}
+
+@media only screen and (max-width: 31.25em) {
+
+    /* page header */
+    .header {
+        width: auto;
+        height: 112vw;
+        background-size: none;
+        background-position: center;
+        background-image: linear-gradient(0, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/image\ 3.svg");
+        background-repeat: no-repeat;
+        box-shadow: none;
+        color: #FFFFFF;
+    }
+
+    .header-first-item {
+        display: none;
+    }
+
+    .header-logo {
+        width: 20.71vw;
+        height: 6.02vw;
+
+    }
+
+    .header-logo-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4.82vw;
+    }
+
+    .header-content {
+        margin: 3vw 0;
+        width: 100%;
+        padding: 0 3vw;
+    }
+
+    .header-first-title {
+        font-weight: 120vw;
+        font-size: 5vw;
+        line-height: 8vw;
+    }
+
+    .frame {
+        display: block;
+    }
+
+    .header-second-title {
+        font-weight: 80vw;
+        font-size: 3vw;
+        line-height: 6vw;
+    }
+
+    /* body 1 */
+    .body-heading-1 {
+        display: none;
+    }
+
+    .body1-items {
+        margin-top: 6vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .b1list-item-1 {
+        width: auto;
+        height: auto;
+        border: none;
+        box-shadow: none;
+        margin-left: 2vw;
+    }
+
+    .b1list-item-2,
+    .b1list-item-3,
+    .b1list-item-4 {
+        width: auto;
+        height: auto;
+        border: 2vw;
+        border-color: #FFFFFF33;
+        margin-left: 2vw;
+    }
+
+    .b1list-item-2{
+        margin-top: 4vw;
+        margin-bottom: 3.2vw;
+    }
+
+    .b1list-item-3{
+        margin-bottom: 4vw;
+    }
+
+    .icon {
+        width: 7.500vw;
+        height: auto;
+        margin-top: 2vw;
+        border: none;
+        box-shadow: none;
+    }
+
+    .b1list-item-l1 {
+        width: auto;
+        height: auto;
+        font-weight: 500;
+        font-size: 3.200vw;
+        line-height: 4.800vw;
+        margin-bottom: 0;
+        margin-top: 2vw;
+    }
+
+    .b1list-item-l2 {
+        width: auto;
+        height: auto;
+        font-weight: 400;
+        font-size: 3.200vw;
+        line-height: 4.800vw;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .b1list-item-l3 {
+        width: auto;
+        height: auto;
+        font-weight: 400;
+        font-size: 3.200vw;
+        line-height: 4.800vw;
+        margin-top: 2vw;
+    }
+
+    /* body 2 */
+    .body-2 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 20vw;
+    }
+
+    .straight-line {
+        display: none;
+    }
+
+    .body2-picture {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .full-content-b2 {
+        margin-top: 20vw;
+        height: auto;
+    }
+
+    .body-heading-2 {
+        width: auto;
+        height: auto;
+        font-size: 5.000vw;
+        line-height: 1.6875em;
+    }
+
+    .b2list-item-p-1 {
+        font-size: 3.200vw;
+        line-height: 4.800vw;
+        margin-top: 4vw;
+    }
+
+    .b2list-item-p-2 {
+        font-size: 3.200vw;
+        line-height: 4.800vw;
+        margin-top: 2vw;
+    }
+
+    .b2list-item-s {
+        width: auto;
+        height: auto;
+        font-size: 3.2vw;
+        line-height: 7vw;
+    }
+
+    .content-s-2 {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+        margin-top: 8vw;
+    }
+
+    .content-s {
+        width: auto;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .b2list-item-color {
+        width: auto;
+        height: auto;
+        font-weight: 400;
+        font-size: 3.300vw;
+        line-height: 4.800vw;
+        color: #F79489;
+        margin-top: 6vw;
+    }
+
+    .b2list-item-s {
+        font-weight: 3.2vw;
+        line-height: 7vw;
+    }
+
+    .operator {
+        width: 3vw;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /* body 3 */
+    .body-3{
+        margin-top: 20vw;
+    }
+
+    .body-heading-3 {
+        font-size: 5.0vw;
+        line-height: 7.2vw;
+        width: 100%;
+        height: auto;
+    }
+
+    .product-picture {
+        width: 22vw;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .kindsofproduct,
+    .cost {
+        font-size: 3.5vw;
+        line-height: 4.8vw;
+    }
+
+    .nameofproduct {
+        font-size: 4.0vw;
+        line-height: 5.6vw;
+
+    }
+
+    .product {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+        grid-column-gap: 0;
+        grid-row-gap: 8vw;
+    }
+
+    .product-1,
+    .product-2,
+    .product-3,
+    .product-4 {
+        width: 43vw;
+        height: auto;
+    }
+
+
+    /* boody-4 */
+    .body-4{
+        margin-top: 20vw;
+    }
+
+    .body-heading-4 {
+        font-size: 5.0vw;
+        line-height: 7.2vw;
+    }
+
+    .intro-comment,
+    .name {
+        font-size: 4.0vw;
+        line-height: 5.6vw;
+    }
+
+    .content-comment,
+    .job {
+        font-size: 3.3vw;
+        line-height: 4.8vw;
+    }
+
+    .b4-content {
+        display: flex;
+        flex-direction: column;
+        gap: 8vw;
+    }
+
+    .peopleimg {
+        width: 13vw;
+        height: 13vw;
+        object-fit: cover;
+    }
+
+    .job,.name {
+        margin-left: 2vw;
+    }
+
+    /* body-5 */
+
+    .body-5{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20vw;
+    }
+
+    .body-5-picture{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .total-content{
+        margin-left: 0%;
+        padding-top: 12vw;
+    }
+
+    .body-heading-5{
+        font-size: 3.9vw;
+        line-height: 5.0vw;
+    }
+
+    .content,.content-2{
+        width: auto;
+        height: auto;
+        line-height: 7vw;
+        font-size: 3.3vw;
+        padding-top: 6vw;
+    }
+
+    .body-5-search{
+        width: 76.5vw;
+        height: 8.3vw;
+        border-radius: 15vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .search-title{
+        width: auto;
+        font-size: 2.7vw;
+        line-height: 4.8vw;
+        padding: 0 2vw;
+        margin-top: 2vw;
+    }
+
+    .b5-image{
+        height: 6vw;
+        width: 6vw;
+        object-fit: cover;
+        margin-top: 1vw;
+        padding-right: 1vw;
+    }
+
+    /* page-ending */
+    .page-ending{
+        margin-top: 20vw;
+        width: auto;
+        height: auto;
+    }
+
+    .pageending-content{
+        display: flex;
+        flex-direction: column;
+        gap: 12vw;
+    }
+
+    .ending-logo{
+        width: 33.800vw;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .header-item-pe p {
+        font-size: 3.8vw;
+        font-weight: 500;
+        line-height: 4.695vw;
+    }
+
+    .pe-block-content{
+        font-size: 3.2vw;
+        font-weight: 400;
+        line-height: 4.185vw;
+        display: flex;
+        flex-direction: column;
+        gap: 0.8vw;
+    }
+
+
+    .ending-title{
+        font-size: 3.2vw;
+        padding-bottom: 5.600vw;
+        margin-top: 20vw;
+    }
+
+}
