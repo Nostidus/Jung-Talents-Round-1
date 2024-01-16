@@ -527,8 +527,8 @@ body {
     }
 
     .header-logo {
-        width: 20.71vw;
-        height: 6.02vw;
+        width: 22.9vw;
+        height: 6.6vw;
     }
 
     .header-logo-container {
@@ -551,6 +551,8 @@ body {
     }
 
     .frame {
+        width: 6.4vw;
+        height: 6.4vw;
         display: block;
     }
 
