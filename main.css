@@ -34,11 +34,12 @@ body {
 }
 
 .header-first-item {
-    width: 24.010vw;
+    width: auto;
     height: auto;
     display: flex;
     justify-content: space-between;
     align-self: center;
+    gap: 2.95vw;
     color: #FFFFFF;
     position: absolute;
     left: 38vw;
@@ -86,6 +87,8 @@ body {
     width: 6.198vw;
     height: 1.823vw;
 }
+
+
 
 /* body 1 */
 
@@ -505,7 +508,7 @@ body {
     padding: 5.0521vw 0 2.0833vw 0;
 }
 
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 768px) {
 
     /* page header */
     .header {
